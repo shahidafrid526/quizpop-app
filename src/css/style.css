@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.quiz-container {
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  justify-content: center;
+  align-items: center;
+}
+
+.question {
+  margin-bottom: 10px;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+.option {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button-container button {
+  margin-right: 10px;
+}
+
+.button-container button:last-child {
+  margin-right: 0;
+}
+
+.question-container{
+  transition: ease-in 3s;
+}
